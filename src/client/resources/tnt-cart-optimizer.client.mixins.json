@@ -3,7 +3,10 @@
 	"package": "name.modid.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"ClientPacketListenerMixin",
+		"MultiPlayerGameModeMixin",
+		"MinecartItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
